@@ -1,5 +1,6 @@
 source 'https://ruby.taobao.org'
 
+gem 'therubyracer'
 gem 'rails', '~> 4.0.12'
 gem 'rails-i18n'
 
@@ -85,6 +86,7 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'rspec-rails'
   gem 'byebug'
+  gem 'simplecov'
 end
 
 group :test do
